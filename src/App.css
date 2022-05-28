@@ -1,38 +1,80 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+    font-family: 'Nunito', sans-serif;
+}
+.App 
+{
+    background-color: white;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bisection 
+{
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: top;
+    font-size: 3rem;
+}
+.bisection button
+{
+    font-size: 1rem;
+    height: 2rem;
+    width: 20rem;
+}
+.bisection input
+{
+    width: 20rem;
+    height: 2rem;
+    text-align: center;
+}
+.bisection plot
+{
+    text-align: center;
+}
+th,td,tr
+{
+    font-size: 20px;
+    padding: 6px;
+    border: 1px solid #ccc;
+}
+.falseposition 
+{
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: top;
+    font-size: 3rem;
+}
+.falseposition button
+{
+    font-size: 1rem;
+    height: 2rem;
+    width: 20rem;
+}
+.falseposition input
+{
+    width: 20rem;
+    height: 2rem;
+    text-align: center;
+}
+.falseposition printroot2{
+    font-size: 1rem;
+    width: 700;
+    height: 600;
+}
+.listnumber.table-wrap{
+    text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
+
