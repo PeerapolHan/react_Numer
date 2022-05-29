@@ -20,21 +20,5 @@ function App() {
     </div>
   );
 }
-// class App extends  Component{
-//   render(){
-//     return (
-//       <div className="App">
-//       <BrowserRouter>
-//         <Navbar/>
-//         <Routes>
-//           <Route path=' /' element={<Bisection/>}/>
-//           <Route path='/falseposition' element={<Falseposition/>}/>
-//           <Route path='/listnumber' element={<Listnumber/>}/>
-//         </Routes>
-//       </BrowserRouter>
-//       </div>
-//     );
-//   }
-// }
 
 export default App;
