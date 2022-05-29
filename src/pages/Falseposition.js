@@ -111,8 +111,6 @@ function Falseposition() {
         />
         <br/>
         <button onClick={clickSubmit}>Submit</button>
-        {/* <br/>
-        <button onClick={clickSubmit}>สมการตัวอย่าง</button> */}
       </div>
       {
         showtable && 
